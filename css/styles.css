@@ -1,0 +1,24 @@
+:root {
+  --color-fondo: #9ed9e3;
+  --color-formulario: #59a17e;
+}
+
+body {
+  background-color: var(--color-fondo);
+}
+
+.contenedor-formulario {
+  background-color: var(--color-formulario);
+  padding: 3%;
+  color: white;
+  font-size: 13px;
+}
+
+.boton-formulario {
+  font-size: 13px;
+}
+
+.input-formulario {
+  width: 320px;
+  height: 48px;
+}
