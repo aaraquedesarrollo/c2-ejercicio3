@@ -2,7 +2,7 @@ function analizaPalabras(arrayPalabras) {
   let informacionPalabra = "";
 
   arrayPalabras.forEach((palabra, indice) => {
-    informacionPalabra += `#######\nPalabra: ${indice + 1}\n`;
+    informacionPalabra += `#######\nPalabra: ${indice + 1} ${palabra}\n`;
     informacionPalabra += `Nº de caracteres: ${palabra.length}\n`;
     informacionPalabra += `Deletreo: ${deletrarPalabra(palabra)}\n`;
     informacionPalabra += checkParYMayus(palabra);
